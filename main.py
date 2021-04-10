@@ -9,7 +9,6 @@ def delete_characters():
         input_text = f_in.readlines()
     text = ''
     punctuation_symbols = list('"#$%&\'()*+-/:;<=>@[\\]^_`{|}~—')
-    print(punctuation_symbols)
     incorrect_basic_symbols = [' .', ' !', ' ?', ' ,']
     basic_symbols = ['.', '!', '?', ',']
     for string in input_text:
