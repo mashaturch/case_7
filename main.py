@@ -8,7 +8,7 @@ def delete_characters():
     with open ('input.txt', encoding = 'utf-8') as f_in:
         input_text = f_in.readlines()
     text = ''
-    punctuation_symbols = list('"#$%&\'()*+-/:;<=>@[\\]^_`{|}~—')
+    punctuation_symbols = list('"#$%&\()*+-/:;<=>@[]^_`{|}~—')
     incorrect_basic_symbols = [' .', ' !', ' ?', ' ,']
     basic_symbols = ['.', '!', '?', ',']
     for string in input_text:
